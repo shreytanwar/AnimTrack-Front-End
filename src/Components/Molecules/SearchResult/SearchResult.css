@@ -1,0 +1,35 @@
+.SearchResult {
+    /* display: flex; */
+    background: #1f1f1f;
+    margin: 10px 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.SearchResultHeader {
+    color: white;
+    font-family: FalcoBlack;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.SearchResultHeader>i {
+    color: #ed2553;
+}
+
+.SearchResultBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    background: #1f1f1f;
+    margin: 10px 30px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.SearchResultBar>* {
+    display: flex;
+    position: relative;
+}

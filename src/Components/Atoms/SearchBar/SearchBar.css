@@ -1,0 +1,64 @@
+.SearchBar{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.SearchBar > form {
+    display: flex;
+    flex: 1;
+    margin: 0px 5px;
+}
+
+.SearchBar > form > input {
+    display: flex;
+    flex: 1;
+
+    border: 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: #4d4d4d;
+
+    height: 37px;
+    max-width: 300px;
+    padding-left: 7px;
+    color: #d9d9d9;
+}
+
+
+.SearchBar > form > input:hover{
+    background: #6d6d6d;
+}
+
+.SearchBar > form > input:focus {
+    outline:none;
+}
+
+
+.SearchBar > form > button {
+    border: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #ed2553;
+
+    height: 39px;
+    width: 40px;
+    padding-left: 7px;
+    color: #d9d9d9;
+
+    cursor: pointer;
+}
+
+.SearchBar > form > button:hover{
+    background: #ff436f;
+}
+
+.SearchBar > form > button:focus {
+    outline:none;
+}
+/* 
+@media(max-width: 600px){
+    .SearchBar > form > input {
+        width: auto;
+    }
+} */

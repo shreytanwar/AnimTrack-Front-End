@@ -1,0 +1,12 @@
+/* Webfont: Falco_Black_Inline */@font-face {
+    font-family: 'FalcoBlackInline';
+    src: url('Falco_Black_Inline.eot'); /* IE9 Compat Modes */
+    src: url('Falco_Black_Inline.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Falco_Black_Inline.woff') format('woff'), /* Modern Browsers */
+         url('Falco_Black_Inline.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Falco_Black_Inline.svg#Falco_Black_Inline') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

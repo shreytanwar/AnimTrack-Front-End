@@ -1,0 +1,86 @@
+.SignUp {
+    position: relative;
+    display: block;
+
+}
+.SignUpPageForm {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    top: 20%;
+}
+
+.SignUpPageTop{
+    font-family: 'FalcoBlack';
+    color: #fff;
+    font-size: 50px;
+    padding: 20px;
+}
+.SignUpPageNameEmailPassword{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 15px;
+}
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.SignUpPageTextTop {
+    background: #4d4d4d;
+    height: 50px;
+    width: 300px;
+    color:  #fff;
+    padding: 0px 10px;
+    outline: none;
+    border: 0;
+    margin: auto;
+    border-bottom: #000 1px solid;
+    
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.SignUpPageTextMid {
+    background: #4d4d4d;
+    height: 50px;
+    width: 300px;
+    color:  #fff;
+    padding: 0px 10px;
+    outline: none;
+    border: 0;
+    margin: auto;
+    border-top: #000 1px solid;
+    border-bottom: #000 1px solid;
+}
+
+.SignUpPagePassword {
+    background: #4d4d4d;
+    height: 50px;
+    width: 300px;
+    color:  #fff;
+    padding: 0px 10px;
+    outline: none;
+    border: 0;
+    margin: auto;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    border-top: #000 1px solid;
+}
+
+.SignUpPageButton{
+    height: 50px;
+    width: 323px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Gotham-Light';
+    background: #ed2553;
+    border-radius: 5px;
+}

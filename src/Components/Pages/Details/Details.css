@@ -1,0 +1,200 @@
+.Details{
+    display: flex;
+    position: relative;
+    color: aliceblue;
+    height: 90vh;
+}
+
+#player {
+    height: 0%;
+}
+
+.html5-video-container{
+    height: 100%;
+}
+
+.DetailsText{
+    position: relative;
+    overflow: hidden;
+    width: 40%;
+    min-width: 400px;
+    
+    padding: 20px 50px;
+        
+    background-image: linear-gradient(to right, rgb(14, 14, 14) -10%, rgba(0, 0, 0, 0) 100%);
+    
+}
+
+.DetailsTextVignette{
+    position: absolute;
+    width: 35%;
+    height: 150%;
+    left:10%;
+    z-index: 2;
+    box-shadow: 150px -100px 100px #000
+}
+.DetailsTitle {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    text-align: left;
+
+    font-family: FalcoBlack;
+    letter-spacing: 15px;
+
+    max-height: 300px;
+}
+
+.DetailsEnglishTitle {
+    font-size: 48px;
+    font-weight:600;
+    z-index: 2;
+    padding: 4px;
+} 
+
+.DetailsJapaneseTitle {
+    font-size: 21px;
+    font-weight: 600;
+    z-index: 2;
+    padding: 4px;
+}
+
+.DetailsTags{
+    display: flex;
+    padding: 5px;
+
+    z-index: 2;
+}
+
+.DetailsTags > *{
+    z-index: 2;
+}
+
+.DetailsTagDivider{
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #3d3d3d;
+}
+.DetailsTagsRating{
+    display: flex;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin: 2px;
+
+    align-content: center;
+    justify-content: center;
+
+    background-color: #4d4d4d;
+    border-radius: 2px;
+}
+
+.DetailsTagsRating:hover{
+    background-color: #6d6d6d;
+}
+
+.DetailsTagsGenre{
+    display: flex;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 2px;
+
+    align-content: center;
+    justify-content: center;
+
+    background-color: #4d4d4d;
+    border-radius: 2px;
+}
+
+.DetailsTagsGenre:hover{
+    background-color: #6d6d6d;
+}
+
+.DetailsTagsScore{
+    min-width: 90px;  
+}
+.DetailsTagsScore > * {
+    color: #ed2553;
+}
+.DetailsSynopsis{
+    display: flex;
+    align-items: center;
+    z-index: 2;
+
+    padding: 5px;
+}
+
+.DetailsSynoposisText{
+    display: flex;
+
+    width: 700px;
+    height: 200px;
+
+    font-family: 'Gotham-Light';
+    text-align: left;
+    font-size: 16px;
+    letter-spacing:1px;
+
+    overflow-y: auto;
+    z-index: 2;
+
+    padding-right: 16px;
+}
+
+.DetailsSynoposisText::-webkit-scrollbar {
+    width: 3px;
+    transition: background-color 1s ;
+}
+
+/* Handle */
+.DetailsSynoposisText::-webkit-scrollbar-thumb {
+    background: rgba(241, 241, 241, 0.5);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+/* Handle on hover */
+.DetailsSynoposisText::-webkit-scrollbar-thumb:hover {
+    background: #fff; 
+}
+
+.DetailsSynoposisText:hover::-webkit-scrollbar-thumb{
+    background: #cfcfcf
+}
+
+.DetailsListButton{
+    z-index: 2;
+}
+
+.DetailsListButton > *{
+    z-index: 2;
+}
+
+.DetailsAnimeImage{
+    position: absolute;
+    top: 50px;
+    right: 150px;
+
+    width: 25%;
+    height: 90%;
+
+    overflow: hidden;
+}
+
+.DetailsAnimeImage > img {
+    width: 100%;
+    animation : DetailsAnimeImageFadeIn 1s;
+}
+
+@keyframes DetailsAnimeImageFadeIn{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}

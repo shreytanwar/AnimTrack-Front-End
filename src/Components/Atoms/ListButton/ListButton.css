@@ -1,0 +1,109 @@
+.ListButton{
+    padding: 15px 0px;
+    width: 155px;
+    /* height: 40px;
+    background-color: #ed2553;
+    z-index: 2;
+    border: black solid 2px;
+    border-radius: 5px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column-reverse; */
+    
+    cursor: pointer;
+}
+
+.ListButtonDefault{
+    height: 40px;
+    display: flex;
+}
+
+.AddToWatchLaterButton{
+    width: 115px;
+    text-align: center;
+
+
+    line-height: 40px;
+    padding-left: 12px;
+    padding-right: 2px;
+
+    background-color:#ed2553;
+
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+
+    font-family: Gotham-Light;
+    font-weight: 600;
+    font-size: 14px;
+    /* margin-left: 0;
+    margin-right: 5px;
+    margin-bottom: 10px; */
+}
+
+.ListDropDownButton{
+    width: 15px;
+    text-align: center;
+
+    line-height: 40px;
+    
+    padding-left: 4px;
+    padding-right: 6px;
+
+    border-left: 1px solid #c21d43;
+    background-color: #ed2553;
+
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.ListDropDown{
+    
+    background-color: #ed2553;
+    display: flex;
+    flex-direction: column;
+    
+    width: 155px;
+
+    border-radius: 3px;
+    
+    /* background-color: #ed2553;
+    z-index: 2;
+    border: black solid 2px;
+    border-radius: 5px;
+    color: aliceblue;
+    
+    flex-direction: column-reverse;      */
+}
+
+.CreateListButton{
+    font-family: Gotham-Light;
+    font-weight: bold;
+
+    border-top: 1px solid #c21d43;
+}
+
+.ListDropDownScroll{
+    max-height: 100px;
+    overflow: auto;
+}
+
+.ListDropDownScroll::-webkit-scrollbar {
+    width: 3px;
+    transition: background-color 1s ;
+}
+
+/* Handle */
+.ListDropDownScroll::-webkit-scrollbar-thumb {
+    background: rgba(241, 241, 241, 0.5);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+/* Handle on hover */
+.ListDropDownScroll::-webkit-scrollbar-thumb:hover {
+    background: #fff; 
+}
+
+.ListDropDownScroll:hover::-webkit-scrollbar-thumb{
+    background: #cfcfcf
+}

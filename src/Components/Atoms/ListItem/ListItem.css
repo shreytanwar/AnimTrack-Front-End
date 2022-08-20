@@ -1,0 +1,28 @@
+.ListItem{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-top: 1px solid #c21d43;
+    line-height: 30px;
+}
+
+.ListItem:hover{
+    background: #ed3f6c;
+}
+
+.ListItemName{
+    width: 125px;
+    overflow: hidden;
+}
+
+.ListItemPlus{    
+    border-left: 1px solid #c21d43;
+    padding-left: 6px;
+    padding-right: 2px;
+}
+
+.ListItemMinus{    
+    border-left: 1px solid #c21d43;
+    padding-left: 6px;
+    padding-right: 2px;
+}

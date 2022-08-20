@@ -1,0 +1,12 @@
+/* Webfont: FalcoBlack */@font-face {
+    font-family: 'FalcoBlack';
+    src: url('FalcoBlack.eot'); /* IE9 Compat Modes */
+    src: url('FalcoBlack.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('FalcoBlack.woff') format('woff'), /* Modern Browsers */
+         url('FalcoBlack.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('FalcoBlack.svg#FalcoBlack') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

@@ -1,0 +1,161 @@
+.UserSignButton{
+    display: flex;
+}
+
+.UserSignButton{
+    display: flex;
+    flex-direction: column;
+}
+
+.UserSignButtonUpIn{
+    display: flex;    
+    height: 100%;
+}
+
+.UserSignDropDown{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background:#ed2553;
+
+    margin-left: 150px;
+    margin-right: 5px;
+}
+
+.UserSignDropDown>img {
+    padding: 5px;
+    height: 40px;
+    position: absolute;
+
+    cursor: pointer;
+}
+
+.UserSignDropDown:hover{
+    background:#e94d71;
+}
+
+.UserSignDropDownItems{
+    min-width: 200px;
+    line-height: 37px;
+    background: #1d1d1d;
+    border-radius: 3px;
+    padding: 1px 0;
+}
+.UserSignDropDownItems>*{
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.UserSignDropDownItems>*{
+    background: #181818;
+}
+
+.UserSignDropDownItems>*:hover{
+    background: #050505;
+}
+
+.UserSignAvatarChooser{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.UserSignAvatarMale{
+    display: flex;
+    justify-content: center;
+    background: #1f1f1f;
+    border-radius: 50%;
+    height: 46px;
+    width: 46px;
+    margin: 2px 0;
+}
+
+.UserSignAvatarMale>img{
+    height: 35px;
+    margin-top: 4px;
+
+    cursor: pointer;
+}
+
+.UserSignAvatarFemale{
+    display: flex;
+    justify-content: center;
+    background: #1f1f1f;
+    border-radius: 50%;
+    height: 46px;
+    width: 46px;
+    margin: 2px 0;
+}
+
+.UserSignAvatarFemale>img{
+    height: 35px;
+    margin-top: 4px;
+
+    cursor: pointer;
+}
+
+.UserSignLists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.UserSignLists> a {
+    color: #d9d9d9;
+    font-family: 'Gotham-Light';
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.SignOutButton{
+    background  :#ed2553;
+
+    cursor: pointer;
+}
+
+.SignOutButton:hover{
+    background  :#ff436f;
+}
+
+
+.SignInButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Gotham-Light';
+    width: 100px;
+    background: #ed2553;
+}
+
+
+.SignInButton{
+    cursor: pointer;
+}
+
+.SignInButton> a {
+    color: #d9d9d9;
+    font-family: 'Gotham-Light';
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.SignUpButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    background: #383838;
+    
+    cursor: pointer;
+}
+
+.SignUpButton> a {
+    color: #d9d9d9;
+    font-family: 'Gotham-Light';
+    font-weight: 600;
+    text-decoration: none;
+}

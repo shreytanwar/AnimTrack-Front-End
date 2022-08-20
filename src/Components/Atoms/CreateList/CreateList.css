@@ -1,0 +1,32 @@
+.CreateList{
+    line-height: 28px;
+}
+
+.CreateListForm > form{
+    display: flex;
+}
+.CreateListFormInput{
+    width: 100px;   
+}
+
+.CreateListFormPlus{
+    padding-left: 6px;
+}
+
+.CreateListForm > form > input {
+    border: 0px;
+    border-top-left-radius: 3px;
+    background: #4d4d4d;
+
+    width: 120px;
+    padding-left: 7px;
+    color: #d9d9d9;
+}
+
+.CreateListForm > form > input:hover{
+    background: #6d6d6d;
+}
+
+.CreateListForm > form > input:focus {
+    outline:none;
+}

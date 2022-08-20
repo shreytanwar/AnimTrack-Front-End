@@ -1,0 +1,62 @@
+.ResultCard{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 200px;
+    height: 300px;
+    border-radius: 3px;
+    
+    overflow: hidden;
+
+    margin: 15px 3px;
+}
+
+.ResultCard:hover > .ResultCardShadow{
+    box-shadow: inset 3px 3px 0px #ed2553,
+    inset -3px -3px 0px #ed2553;
+    border-radius: 3px;
+}
+
+.ResultCardShadow{
+    position: absolute;
+    width: inherit;
+    height: inherit; 
+    z-index: 4;
+}
+
+.ResultCard > img{
+    height: 100%;
+    width: 100%;
+    transition: transform 200ms ease-in-out;
+    -webkit-transition: transform 200ms ease-in-out;
+}
+
+
+.ResultCard:hover > img{
+    transform: scale(1.05);
+    transition: transform 200ms ease-in-out;
+    -webkit-transition: transform 200ms ease-in-out;
+}
+
+.ResultCardTitle{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+    bottom: 0px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: linear-gradient(to top, #000000 50%, #ffffff00 100%);
+
+    color:#ffffff
+}
